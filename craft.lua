@@ -7,6 +7,9 @@ CRAFT
 --4 Dye Concrete
 --5 Dye Concrete x8
 --6 Masonry
+--7 Armature
+--8 Concrete Pillar Default
+--9 Dye Concrete Pillar
 ]]--
 ----1 Cement
 minetest.register_craft({
@@ -306,11 +309,20 @@ recipe = {
 {mdn .. ':cement_wet', 'default:brick'},
 }
 })
---7 Armature
+----7 Armature
 minetest.register_craft({
 output = mdn .. 'armature 4',
 recipe = {
 {'default:steel_ingot', '','default:steel_ingot'},
 {'default:steel_ingot', '','default:steel_ingot'}
+}
+})
+----8 Concrete Pillar Default
+minetest.register_craft({
+output = mdn .. 'concrete_pillar 2',
+recipe = {
+{mdn.. 'default_concrete'},
+{mdn.. 'armature'},
+{mdn.. 'default_concrete'},
 }
 })

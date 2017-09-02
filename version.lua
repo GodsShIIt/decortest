@@ -1,21 +1,9 @@
----------------Version 4.1
+---------------Version 4.2
 ----Added blocks
---+ Cement
---+ Wet Cement
---+ Concrete
---+ Colored concrete
---+ Masonry
---+ Armature
-----Added Items
---+ Cement
+--+ Dye Concrete Defualt
+--+ Dye Concrete Pillar
 ----Added craft
---+ Cement
---+ Concrete
---+ Colored concrete
---+ Colored concrete x8
---+ Masonry
---+ Armature
-----Added features
---+ Water washes paint off concrete
---+ The cement becomes wet next to water
+--+ Dye Concrete Default
+----Removed features
+--- Water washes paint off concrete
 

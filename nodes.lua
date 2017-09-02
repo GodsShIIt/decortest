@@ -8,6 +8,8 @@ NODES
 --4 Dye Concrete
 --5 Masonry
 --6 Armature
+--7 Concrete Pillar Default
+--8 Dye Concrete Pillar
 ]]--
 
 
@@ -206,3 +208,261 @@ groups = { cracky = 3 },
 			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
 		},
 	})
+----7 Concrete Pillar Default
+minetest.register_node(mdn .. "concrete_pillar", {
+description = "Concrete Pillar",
+tile_images = {"concrete.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+----8 Dye Concrete Pillar
+minetest.register_node(mdn .. "concrete_pillar_black", {
+description = "Black Concrete Pillar",
+tile_images = {"concrete_black.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_blue", {
+description = "Blue Concrete Pillar",
+tile_images = {"concrete_blue.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_brown", {
+description = "Black Concrete Pillar",
+tile_images = {"concrete_brown.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_cyan", {
+description = "Cyan Concrete Pillar",
+tile_images = {"concrete_cyan.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_dark_green", {
+description = "Dark Green Concrete Pillar",
+tile_images = {"concrete_dark_green.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_dark_grey", {
+description = "Dark Grey Concrete Pillar",
+tile_images = {"concrete_dark_grey.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_green", {
+description = "Green Concrete Pillar",
+tile_images = {"concrete_green.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_grey", {
+description = "Grey Concrete Pillar",
+tile_images = {"concrete_grey.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_magenta", {
+description = "Magenta Concrete Pillar",
+tile_images = {"concrete_magenta.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_orange", {
+description = "Orange Concrete Pillar",
+tile_images = {"concrete_orange.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_pink", {
+description = "Pink Concrete Pillar",
+tile_images = {"concrete_pink.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_red", {
+description = "Red Concrete Pillar",
+tile_images = {"concrete_red.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_violet", {
+description = "Violet Concrete Pillar",
+tile_images = {"concrete_violet.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_white", {
+description = "White Concrete Pillar",
+tile_images = {"concrete_white.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
+minetest.register_node(mdn .. "concrete_pillar_yellow", {
+description = "Yellow Concrete Pillar",
+tile_images = {"concrete_yellow.png"},
+is_ground_content = true,
+groups = { crumbly = 1},
+--sounds = default.node_sound_sand_defaults(),
+drawtype = "nodebox",
+		node_box = {
+		  type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},      
+		},
+		selection_box = {
+			type = "fixed",
+			fixed = {{-1/4, -1/2, -1/4, 1/4, 1/2, 1/4}},
+		},
+})
