@@ -199,8 +199,7 @@ groups = { cracky = 3 },
     drawtype = "nodebox",
 		node_box = {
 		  type = "fixed",
-			fixed = {{-1/32, -1/2, -1/32, 1/32, 1/2, 1/32}},
-	      
+			fixed = {{-1/32, -1/2, -1/32, 1/32, 1/2, 1/32}},      
 		},
 		selection_box = {
 			type = "fixed",

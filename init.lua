@@ -1,4 +1,4 @@
---Concrete mob version 2.3
+--Concrete mob version 4.1
 mdn = "decortest:"
 
 local decortest_path = minetest.get_modpath("decortest")
