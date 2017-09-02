@@ -19,10 +19,10 @@ recipe = {
 })
 ----2 Cement Block
 minetest.register_craft({
-output = mdn .. 'cement_block 9',
+output = mdn .. 'cement_block 6',
 recipe = {
 {mdn .. 'cement', mdn .. 'cement', mdn .. 'cement'},
-{mdn .. 'cement', mdn .. 'armature', mdn .. 'cement'},
+{mdn .. 'armature', mdn .. 'armature', mdn .. 'armature'},
 {mdn .. 'cement', mdn .. 'cement', mdn .. 'cement'},
 }
 })
@@ -304,5 +304,13 @@ minetest.register_craft({
 output = mdn .. 'brick_masonry',
 recipe = {
 {mdn .. ':cement_wet', 'default:brick'},
+}
+})
+--7 Armature
+minetest.register_craft({
+output = mdn .. 'armature 4',
+recipe = {
+{'default:steel_ingot', '','default:steel_ingot'},
+{'default:steel_ingot', '','default:steel_ingot'}
 }
 })
